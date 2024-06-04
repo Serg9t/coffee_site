@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-main-black);
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
