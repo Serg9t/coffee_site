@@ -8,9 +8,11 @@ body {
     margin: 0;
     background-color: var(--bg-main-black);
     font-family: 'Jost', sans-serif;
+    color: var(--color-white)
 }
 
 a {
+    color: var(--color-white);
     text-decoration: none;
 }
 
@@ -23,3 +25,31 @@ img {
     margin: 0 auto;
 }
 
+.btn {
+    min-width: 200px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: background-color .2s ease;
+}
+
+.btn-main {
+    background-color: var(--color-sand);
+}
+
+.btn-main:hover {
+    background-color: #a88666;
+}
+
+.btn-secondary {
+    border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-border);
+}
